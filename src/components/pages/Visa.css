@@ -1,0 +1,242 @@
+.visa-main{
+
+   background-color: white;
+   
+}
+.visa-heading{
+    height: 37vh;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    place-items:center;
+}
+.visa-sub-heading {
+    width: 30rem;
+    text-align: center;
+}
+.visa-sub-heading h1{
+    font-size: 4.5em;
+    font-family: poppins;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+.visa-sub-heading p{
+    font-size: 1.1em;
+    font-family: poppins;
+    font-weight: 400;   }
+.visa-content-heading{
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    border: 1px solid rgb(210, 210, 210);
+    padding: 3rem 20rem;
+    border-radius: 20px;
+}
+.visa-content-heading h1{
+    font-size: 2em;
+    font-family: poppins;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+.visa-content-heading p{
+    font-size: 1.1em;
+    font-family: poppins;
+    font-weight: 400;
+    color: rgb(111, 111, 111);
+    line-height: 30px;
+}
+.visa-content-start{
+    
+    width: 70%;
+    border: 1px solid rgb(210, 210, 210);
+    border-radius:20px ;
+    
+    margin : 0 auto;
+    display: flex;
+    margin-top: 1rem;
+}
+.visa-content-start h1{
+    font-size: 1.2em;
+    font-family: poppins;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    margin: 0 auto;
+ 
+}
+
+.visa-content-start p{
+    font-size: 1em;
+    font-family: poppins;
+    color: rgb(111, 111, 111);
+}
+.visa-content-left{
+    width: 50%;
+    padding: 2rem;
+    border-right: 1px solid rgb(210, 210, 210);
+}
+.visa-content-right{
+    width: 50%;
+    padding: 2rem;
+}
+.visa-content-left-heading{
+    font-size: 1.2em;
+    font-family: poppins;
+    border-bottom: 1px solid rgba(111, 111, 111,0.5);
+}
+.visa-content-start a {
+    font-size: 1.2em;
+    font-family: poppins;
+    font-weight: 600;
+ 
+    margin: 0 auto;
+    color: rgb(0, 128, 247);
+  
+    
+    
+}
+.visa-content-left-line{
+   
+    padding-top: 1rem;
+}
+.contries{
+    width: 72%;
+    height: fit-content;
+    margin:  0 auto;
+    border-radius: 10px;
+    
+    
+    display: flex;
+}
+.country-card-left{
+    width: 25%;
+    
+  
+}
+.country-card{
+    height: 10rem;
+    width: 90%;
+    border: 1px solid red;
+    margin:  0 auto;
+    border-radius: 10px;
+    
+}
+
+
+
+.contires-new{
+    width: 70%;
+   
+    margin: 0 auto;
+    margin-top: 1rem;
+    
+}
+
+@keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(calc(-250px * 7)); }
+}
+
+.slider {
+    background: white;
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
+    height: 100px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.slider::before,
+.slider::after {
+    background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+    content: "";
+    height: 100px;
+    position: absolute;
+    width: 200px;
+    z-index: 2;
+}
+
+.slider::after {
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+}
+
+.slider::before {
+    left: 0;
+    top: 0;
+}
+
+.slide-track {
+    animation: scroll 40s linear infinite;
+    display: flex;
+    width: calc(250px * 14);
+}
+
+.slide {
+    height: 100px;
+    width: 250px;
+}
+
+@media (max-width: 800px) {
+
+
+    .visa-heading{
+        height: 37vh;
+        background-color: rgb(255, 255, 255);
+        display: grid;
+        place-items:center;
+    }
+    .visa-sub-heading {
+        width: 15rem;
+        text-align: center;
+    }
+    .visa-sub-heading h1{
+        font-size: 2em;
+    }
+    .visa-sub-heading p{
+        font-size: 0.7em;
+        line-height: 17px;
+    }
+    .visa-content-heading{
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+        border: 1px solid rgb(210, 210, 210);
+        padding: 3rem 5rem;
+        border-radius: 20px;
+        padding: 1rem;
+        
+    }
+    .visa-content-heading h1{
+        font-size: 1.3em;
+        font-family: poppins;
+        font-weight: 600;
+        color: rgb(0, 0, 0);
+    }
+    .visa-content-start {
+        display: block;
+        width: 90%;
+    }
+    .visa-content-left{
+        width: 100%;
+        border-right:none ;
+    }
+    .visa-content-right{
+        width: 100%;
+    }
+    .visa-content-start p {
+        font-size: 0.8em;
+    }
+    .visa-content-heading p {
+        font-size: 0.8em;
+        line-height: 20px;
+    }
+    .contires-new{
+        width: 100%;
+       
+        margin: 0 auto;
+        margin-top: 1rem;
+        
+    }
+}
+

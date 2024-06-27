@@ -1,0 +1,34 @@
+.visa-form{
+      height: fit-content;
+      
+}
+.visa-title{
+    height: 10vw;
+    display: grid;
+    place-items:center;
+}
+.visa-title h1 {
+    font-family: poppins;
+    font-size: 4em;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+.form-handler{
+    width: 70%;
+    margin: 0 auto;
+}
+@media (max-width: 800px) {
+    .form-handler{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .visa-title{
+        height: 10rem;
+    }
+    .visa-title h1 {
+        font-family: poppins;
+        font-size: 2em;
+        font-weight: 600;
+        color: rgb(0, 0, 0);
+    }
+}

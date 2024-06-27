@@ -1,0 +1,175 @@
+.footer{
+    height: 40vh;
+    background-color: rgb(48, 48, 48);
+    display: grid;
+    place-items: center;
+    margin-top: 10rem;
+}
+.sub-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+    width: 85%;
+    
+    
+}
+.footer_1st{
+    height: 100%;
+    width: 50%;
+    
+    
+    
+    
+    
+}
+.footer_1st_top h1{
+    font-family: poppins;
+    font-size: 6em;
+    font-weight: 600;
+    line-height: 77px;
+    color: rgb(132, 132, 132);
+    
+    
+
+}
+.footer_1st_bottom{
+    display: flex;
+   
+   
+    
+}
+.footer_1st_bottom h1 {
+    margin-right: 15px;
+    font-size:1.4em;
+    color: rgb(0, 255, 242) ;
+}
+.footer_2nd{
+    height: 100%;
+    width: 33%;
+    
+   
+}
+.footer_2nd h1 {
+    font-family: poppins;
+    font-size: 3em;
+    font-weight: 600;
+    line-height: 65px;
+    color: rgb(228, 228, 228);
+}
+
+.footer_2nd p {
+    font-family: poppins;
+    font-size: 1.1em;
+    font-weight: 500;
+    line-height: 20px;
+    
+    color: rgb(151, 151, 151);
+}
+.footer_3rd{
+    height: 100%;
+    width: 33%;
+ 
+    
+}
+.footer_3rd_top h1{
+    font-family: poppins;
+    font-size: 3em;
+    font-weight: 600;
+    line-height: 65px;
+    color: rgb(228, 228, 228);
+}
+.footer_3rd_bottom{
+    display: grid;
+}
+.footer_3rd_bottom a {
+    font-family: poppins;
+    margin-bottom: 10px;
+    color: rgb(0, 255, 242) ;
+    text-decoration: none;
+    
+}
+.iconsss{
+  color: rgb(0, 255, 242) ;
+}
+   
+@media (max-width:800px){
+  .sub-footer{
+    width: 85%;
+    display: grid;
+   
+    height: 100%;
+   
+  }
+  .footer{
+    height: fit-content;
+    margin-top: 5rem;
+    padding-top: 2rem;
+ 
+  }
+  .footer_1st{
+    width: 100%;
+  
+    text-align: center;
+  }
+ 
+  .footer_1st_bottom_container{
+    display: grid;
+    place-items:center;
+  }
+  .footer_1st_top h1{
+    font-size: 3em;
+    
+  }
+  .footer_1st_bottom h1{
+    font-size: 1.5em;
+    margin-top: -1.5rem;
+
+  }
+  .footer_2nd{
+    width: 100%;
+    margin-top: 2rem;
+    text-align: center;
+    
+  }
+  .footer_2nd h1{
+    font-size: 1.7em;
+    margin-bottom: -0.6rem;
+
+  }
+  .footer_2nd p{
+    font-size: 1em;
+    margin-bottom: 0.7rem;
+    line-height: 17px;
+    
+  }
+  .footer_3rd{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 2em;
+  }
+  .footer_1st_top h1{
+    font-size: 2em;
+    
+  }
+  .footer_1st_bottom h1{
+    font-size: 1.6em;
+  }
+  .footer_3rd_top h1{
+    font-size: 1.7em;
+    
+  }
+  .footer_3rd_top {
+    margin-bottom: -0.9rem;
+  }
+  .footer_3rd a {
+    margin-top:1rem ;
+  }
+  .iconsss{
+    color: rgb(151, 151, 151);
+  }
+     
+
+
+
+}
