@@ -179,15 +179,25 @@ export default function Home() {
        <SwiperSlide>
        <div className="the_service_card">
 
-<div className="the_service_card_left"></div>
-<div className="the_service_card_right"></div>
+<div className="the_service_card_left">
+<h1>Prep Programs</h1>
+<p>Excel in IELTS, TOEFL, PTE, and more with our expert test prep services. We provide the guidance and resources you need to succeed.</p>
+</div>
+<div className="the_service_card_right">
+<img src="images/book.png" alt="" />
+</div>
 </div>
        </SwiperSlide>
        <SwiperSlide>
        <div className="the_service_card">
 
-<div className="the_service_card_left"></div>
-<div className="the_service_card_right"></div>
+<div className="the_service_card_left">
+<h1>Tour Packages</h1>
+<p>Discover curated tour packages for every traveler. Explore scenic landscapes and historical landmarks with ease.</p>
+</div>
+<div className="the_service_card_right">
+<img src="images/photo.png" alt="" />
+</div>
 </div>
        </SwiperSlide>
     

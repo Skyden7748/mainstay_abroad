@@ -391,7 +391,12 @@
    
     }
   @media (max-width: 800px) {
-    
+    .the_service_card_left h1{
+      font-size: 1.2em;
+    }
+    .the_service_card_left p{
+      font-size: 0.73em;
+    }
     .the_service_card{
       width:20rem;
       height: 14rem;
