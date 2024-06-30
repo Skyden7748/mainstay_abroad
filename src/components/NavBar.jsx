@@ -40,28 +40,34 @@ function NavBar() {
                 About
               </NavLink>
             </li>
-            <li className="nav-item">
-              <NavLink
-                exact
-                to="/visa"
-                activeClassName="active"
-                className="nav-links"
-                onClick={handleClick}
-              >
-                VISA
-              </NavLink>
+            <li className="nav-item x" >
+            <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    VISA
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="/visa">VISA Services</a></li>
+    <li><a class="dropdown-item" href="/tourist_visa">Tourist Visas</a></li>
+    <li><a class="dropdown-item" href="/student_visa">Student Visas</a></li>
+    <li><a class="dropdown-item" href="/business_visa">Business Visas</a></li>
+    <li><a class="dropdown-item" href="/work_visa">Work Visas</a></li>
+  </ul>
+</div>
             </li>
             
-            <li className="nav-item">
-              <NavLink
-                exact
-                to="/programs"
-                activeClassName="active"
-                className="nav-links"
-                onClick={handleClick}
-              >
-              Programs
-              </NavLink>
+            <li className="nav-item x y" >
+            <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Programs
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="/programs">All Programs</a></li>
+    <li><a class="dropdown-item" href="/ielts">IELTS</a></li>
+    <li><a class="dropdown-item" href="/toefl">TOEFL</a></li>
+    <li><a class="dropdown-item" href="/pte">PTE</a></li>
+    <li><a class="dropdown-item" href="/oet">OET</a></li>
+  </ul>
+</div>
             </li>
             <li className="nav-item">
               <NavLink

@@ -36,6 +36,8 @@
   .sub-main button{
     padding: 20px 25px;
     font-size: 2em;
+    border-bottom:4px solid rgb(0, 0, 103) ;
+    border-right:4px solid rgb(0, 0, 103) ;
   }
   .sub-main button:hover{
     background-color: #0fffeb;

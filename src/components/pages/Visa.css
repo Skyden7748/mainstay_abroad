@@ -181,17 +181,18 @@
 
 
     .visa-heading{
-        height: 37vh;
+        height: 25vh;
         background-color: rgb(255, 255, 255);
         display: grid;
         place-items:center;
+        
     }
     .visa-sub-heading {
         width: 15rem;
         text-align: center;
     }
     .visa-sub-heading h1{
-        font-size: 2em;
+        font-size: 3em;
     }
     .visa-sub-heading p{
         font-size: 0.7em;

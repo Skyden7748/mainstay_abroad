@@ -1,34 +1,32 @@
-.visa-form{
-      height: fit-content;
-      
+.visa-sub-heading1 {
+    width: 33rem;
+    text-align: center;
 }
-.visa-title{
-    height: 10vw;
-    display: grid;
-    place-items:center;
-}
-.visa-title h1 {
+.visa-sub-heading1 h1{
+    font-size: 4.5em;
     font-family: poppins;
-    font-size: 4em;
     font-weight: 600;
     color: rgb(0, 0, 0);
 }
-.form-handler{
-    width: 70%;
-    margin: 0 auto;
+.visa-sub-heading1 p{
+    font-size: 1.1em;
+    font-family: poppins;
+    font-weight: 400;   
 }
 @media (max-width: 800px) {
-    .form-handler{
-        width: 100%;
-        margin: 0 auto;
+    .visa-sub-heading1{
+        width: 15rem;
+        text-align: center;
+ 
+        width: 20rem;
+       
     }
-    .visa-title{
-        height: 10rem;
+    .visa-sub-heading1 h1{
+        font-size: 3em;
+        line-height: 42px;
     }
-    .visa-title h1 {
-        font-family: poppins;
-        font-size: 2em;
-        font-weight: 600;
-        color: rgb(0, 0, 0);
+    .visa-sub-heading1 p{
+        font-size: 0.9em;
+        line-height: 17px;
     }
 }
