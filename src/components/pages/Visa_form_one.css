@@ -13,6 +13,14 @@
     font-family: poppins;
     font-weight: 400;   
 }
+
+.visa-content-heading.tour{
+    background-image: url('/images/tour-cover.png' );
+
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+}
 @media (max-width: 800px) {
     .visa-sub-heading1{
         width: 15rem;

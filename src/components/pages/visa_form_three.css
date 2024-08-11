@@ -1,0 +1,17 @@
+.visa-content-heading.stu
+{
+    background-image: url('/images/study-cover.png' );
+
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.inputf{
+    width: 100%;
+    background-color: white;
+    border: none;
+    border: 1px solid rgb(145, 145, 145);
+    padding: 1rem;
+    border-radius: 10px;
+}

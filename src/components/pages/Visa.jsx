@@ -11,7 +11,7 @@ function Visa() {
             </div>
         </div>
         <div className='visa-content'>
-          <div className='visa-content-heading'>
+          <div className='visa-content-heading he'>
             <h1>Your Gateway to Hassle-Free Travel</h1>
             <p>Navigating the visa application process can be daunting, but at Mainstay Abroad, we make it simple and stress-free. </p>
           </div>

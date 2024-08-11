@@ -33,6 +33,7 @@ function App() {
      <Route path='/' element={<Home />} />
      <Route path='/contact' element={< Contact/>} />
      <Route path='/about' element={< About/>} />
+     
      <Route path='/visa' element={< Visa/>} />
      <Route path='/programs' element={< IELTS/>} />
      <Route path='/tourist_visa' element={< Visa_form_one/>} />

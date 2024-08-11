@@ -1,6 +1,41 @@
 import React from 'react'
+import './visa_form_four.css'
+import  { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+import Popup from '../Popup';
+
 
 function Visa_form_four() {
+  const [showPopup, setShowPopup] = React.useState(false);
+
+  const form = useRef();
+  
+ 
+
+
+
+  const sendEmail = (e) => {
+
+    setShowPopup(true);
+    e.preventDefault();
+
+    emailjs
+      .sendForm('service_cv66ulo', 'template_vp190bm', form.current, {
+        publicKey: 'jpLHwZ4Nr6v4ozupx',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
+
+      setTimeout(() => {
+        form.current.reset();
+      }, 500);
+    };
   return (
     <div className='visa-main'>
     <div className='visa-heading'>
@@ -10,7 +45,7 @@ function Visa_form_four() {
         </div>
     </div>
     <div className='visa-content'>
-      <div className='visa-content-heading'>
+      <div className='visa-content-heading work'>
         <h1>Your Gateway to Hassle-Free Travel</h1>
         <p>Navigating the visa application process can be daunting, but at Mainstay Abroad, we make it simple and stress-free. </p>
       </div>
@@ -37,12 +72,27 @@ function Visa_form_four() {
            
         </div>
         <div className='visa-content-right'>
-        <form className="form">
+        <form className="form"  ref={form} onSubmit={sendEmail}  >
       <div className="title">Contact us</div>
-      <input type="text" placeholder="Name" className="input" />
-      <input type="text" placeholder="Email Id" className="input" />
-      <input type="text" placeholder="Subject" className="input" />
-      <textarea placeholder="Message" className="textarea"></textarea>
+      <input type="text" placeholder="Name" className="input" required name="p_name" />
+      <input type="text" placeholder="Email Id" className="input" required name="e_mail"/>
+      <input type="text" placeholder="Mobile Number" className="input"required name="mob"  />
+     
+      <select  placeholder="Country" className="inputf" name="country">
+
+        <option>USA</option>
+        <option>CANADA</option>
+        <option>JAPAN</option>
+        <option>SINGAPORE</option>
+        <option>UK</option>
+        <option>GERMANY</option>
+        <option>FRANCE</option>
+        <option>MALASIA</option>
+        
+        
+
+      </select>
+      <textarea placeholder="Message" className="textarea" name="message"></textarea>
       <button type="submit">Submit</button>
     </form>
 
@@ -99,6 +149,9 @@ function Visa_form_four() {
 </div>
 </div>
     </div>
+    <Popup trigger={showPopup} setTrigger={setShowPopup}>
+      <h3>ThankYou!! your details have been submitted.</h3>
+    </Popup>
 </div>
   )
 }

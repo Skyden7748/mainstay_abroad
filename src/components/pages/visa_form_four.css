@@ -1,0 +1,9 @@
+.visa-content-heading.work
+{
+    background-image: url('/images/work-cover.png' );
+
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+
+}

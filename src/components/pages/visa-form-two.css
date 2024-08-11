@@ -1,0 +1,9 @@
+.visa-content-heading.bizz
+{
+    background-image: url('/images/bizz-cover.png' );
+
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}

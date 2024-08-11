@@ -176,6 +176,16 @@
     height: 100px;
     width: 250px;
 }
+.visa-content-heading.he{
+     background-image: url('/images/visa-cover.png' );
+     
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     
+     /* height: 25vh; */
+
+}
 
 @media (max-width: 800px) {
 
