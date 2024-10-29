@@ -40,6 +40,8 @@ function NavBar() {
                 About
               </NavLink>
             </li>
+           
+            
             <li className="nav-item x" >
             <div class="dropdown">
   <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -48,9 +50,7 @@ function NavBar() {
   <ul class="dropdown-menu">
     <li><a class="dropdown-item" href="/visa">VISA Services</a></li>
     <li><a class="dropdown-item" href="/tourist_visa">Tourist Visas</a></li>
-    <li><a class="dropdown-item" href="/student_visa">Student Visas</a></li>
-    <li><a class="dropdown-item" href="/business_visa">Business Visas</a></li>
-    <li><a class="dropdown-item" href="/work_visa">Work Visas</a></li>
+    
   </ul>
 </div>
             </li>
@@ -58,14 +58,16 @@ function NavBar() {
             <li className="nav-item x y" >
             <div class="dropdown">
   <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-    Programs
+    Services
   </button>
   <ul class="dropdown-menu">
-    <li><a class="dropdown-item" href="/programs">All Programs</a></li>
     <li><a class="dropdown-item" href="/ielts">IELTS</a></li>
-    <li><a class="dropdown-item" href="/toefl">TOEFL</a></li>
+    <li><a class="dropdown-item" href="/attestation">ATTESTATION</a></li>
+    <li><a class="dropdown-item" href="/tours">Travels and Tours</a></li>
+    
+    {/* <li><a class="dropdown-item" href="/toefl">TOEFL</a></li>
     <li><a class="dropdown-item" href="/pte">PTE</a></li>
-    <li><a class="dropdown-item" href="/oet">OET</a></li>
+    <li><a class="dropdown-item" href="/oet">OET</a></li> */}
   </ul>
 </div>
             </li>

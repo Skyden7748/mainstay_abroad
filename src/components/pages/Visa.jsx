@@ -1,5 +1,6 @@
 import React from 'react'
 import './Visa.css'
+import { useHref } from 'react-router-dom'
 
 function Visa() {
   return (
@@ -19,10 +20,16 @@ function Visa() {
             <div className='visa-content-left'>
                 <div className='visa-content-left-heading'><h1>Comprehensive Visa Assistance</h1></div>
                 <div className='visa-content-left-line'>
-                    <a href='/tourist_visa'>Tourist Visas</a>
-                    <p>Whether you’re planning a short vacation or an extended holiday, we’ll help you secure your tourist visa with ease.</p>
+                    <h1></h1>
+                    <p>Our Comprehensive Visa Assistance services cover all your visa needs, ensuring a smooth process. For Tourist Visas, whether it’s a short vacation or an extended holiday, we help you secure your visa with ease. Our Business Visa services streamline corporate travel with tailored solutions to meet business requirements. If you’re a student heading abroad, our Student Visa assistance ensures you obtain the necessary permits for your studies. For professionals, our Work Visa support simplifies the process of securing work permits for various global destinations. We’re here to guide you at every step, providing personalized support for your unique visa needs.</p>
+
+
                 </div>
-                <div className='visa-content-left-line'>
+                <div className='visa-content-left-button '>
+                    <h1>By clicking the button below, you can fill a form. You can choose the type of visa and services you need.</h1>
+                    <button onClick={() => window.location.href = 'https://form.jotform.com/243020447050038'}>Lets get started</button>
+                </div>
+                {/* <div className='visa-content-left-line'>
                     <a href='/business_visa'>Business Visas</a>
                     <p>Streamline your business travel plans with our efficient business visa services, tailored to meet corporate needs.</p>
                 </div>
@@ -33,7 +40,7 @@ function Visa() {
                 <div className='visa-content-left-line'>
                     <a href='/work_visa'> Work Visas</a>
                     <p>Ready to take your career overseas? We offer support in securing work visas for various international destinations.</p>
-                </div>
+                </div> */}
                
             </div>
             <div className='visa-content-right'>

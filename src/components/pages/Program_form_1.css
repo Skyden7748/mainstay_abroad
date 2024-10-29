@@ -1,0 +1,97 @@
+.program-cards{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.the_service_card1.card1
+{
+    width:18rem;
+    border: 1px solid rgb(192, 192, 192);
+    height :14rem;
+    border-radius: 20px ;
+    padding: 1.5rem;
+    background-image: url('/images/write-bg.png' );
+    background-size: cover;
+    font-family: poppins;
+}
+.the_service_card1.card3
+{
+    width:18rem;
+    border: 1px solid rgb(192, 192, 192);
+    height :14rem;
+    border-radius: 20px ;
+    padding: 1.5rem;
+    background-image: url('/images/mike-bg.png' );
+    background-size: cover;
+    font-family: poppins;
+}
+.the_service_card1.card2
+{
+    width:18rem;
+    border: 1px solid rgb(192, 192, 192);
+    height :14rem;
+    border-radius: 20px ;
+    padding: 1.5rem;
+    background-image: url('/images/book-bg.png' );
+    background-size: cover;
+    font-family: poppins;
+}
+.the_service_card1.card4
+{
+    width:18rem;
+    border: 1px solid rgb(192, 192, 192);
+    height :14rem;
+    border-radius: 20px ;
+    padding: 1.5rem;
+    background-image: url('/images/speak-bg.png' );
+    background-size: cover;
+    font-family: poppins;
+}
+.about-ielts{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.about-ielts p{
+    font-family: poppins;
+}
+.checkbox-group{
+   
+}
+.checkbox-group label {
+    
+    width: 100%;
+    /* border: 1px solid red; */
+    border : 1px solid rgb(192, 192, 192);
+    padding: 0.5rem;
+    margin-bottom: 10px ;
+    border-radius: 10px ;
+    color: rgb(92, 92, 92);
+}
+.sep{
+    margin-top: 20px;
+}
+
+.checkbox-group input{
+    
+    width: 20px;
+}
+
+.the_service_card1 h1{  
+    font-size: 3em;
+    font-weight: 600;
+    color: rgb(79, 79, 79);    
+}
+@media(max-width:800px){
+    .program-cards{
+        width: fit-content;
+        display: block;
+        margin: 0 auto ;
+    }
+}

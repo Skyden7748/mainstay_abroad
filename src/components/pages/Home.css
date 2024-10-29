@@ -392,7 +392,95 @@
     .services{
    
     }
+
+    .call{
+      width: 85%;
+      border: 1px solid rgb(197, 197, 197);
+      margin: 0 auto;
+      margin-top: 3rem;
+      height: 15rem;
+      border-radius: 10px;
+      display: flex;
+      background-color: rgb(255, 255, 255);
+    
+    }
+    .call_content_left{
+      width: 50%;
+      height: 100%;
+      display: grid;
+      place-items: center;
+      /* border: 1px solid red; */
+      padding: 2rem;
+    }
+    .call_content_left p {
+      font-family: poppins;
+      font-size: 3rem ;
+      font-weight: 600;
+      color: rgb(165, 165, 165);
+      line-height: 55px;
+
+    }
+    .call_content_right{
+      width: 50%;
+      height: 100%;
+      display: grid;
+      place-items: center;
+      /* border: 1px solid red; */
+      padding: 2rem;
+    }
+    .call_content_right h2 {
+      font-family: poppins;
+      font-size: 4rem ;
+      font-style: italic;
+      
+      font-weight: 600;
+      color: rgb(106, 106, 106);
+      line-height: 55px;
+
+    }
+    
+    
+
+
   @media (max-width: 800px) {
+
+   
+
+
+
+    .call{
+      width: 80%;
+      display: block;
+      height: fit-content;
+
+      margin-top: 6rem;
+      
+    }
+    .call_content_left{
+      width: 100%;
+      padding: 0.5rem;
+      height: fit-content;
+    }
+    .call_content_left p{
+      font-size: 1.2em;
+      line-height: 20px;
+      /* border: 1px solid red; */
+    }
+    .call_content_right{
+      width: 100%;
+      border-top: 1px solid rgb(0, 234, 251);
+      height: fit-content;
+      display: block
+      ;
+      padding: 0px;
+      padding-left:10px ;
+      padding-top: 0.7rem;
+    }
+    .call_content_right h2{
+      font-size: 2em;
+      line-height: 30px;
+    }
+    
     .the_service_card_left h1{
       font-size: 1.2em;
     }
@@ -409,6 +497,7 @@
       margin: 0 auto;
     }
     .testimonial{
+      margin-top: 3rem
      
     }
     .testimonial_heading p{
@@ -668,6 +757,9 @@
        /* Adjust the height as needed */
       /* Space between the image and the text */
        /* Align the image vertically with the text */
+    }
+    .sub-about-right{
+      margin-top: 2rem;
     }
 
   }

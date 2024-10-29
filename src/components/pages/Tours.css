@@ -1,0 +1,209 @@
+.travel-cards{
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+.tarvel-card{
+    width: 30%;
+    height: 20rem;
+    border: 1px solid rgb(115, 115, 115);
+    border-radius: 20px ;
+    padding: 1.5rem;
+}
+.tarvel-card h1{
+    font-size: 1.5em;
+    font-family: poppins;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+.tarvel-card p{
+    font-size: 1em;
+    font-family: poppins;
+    font-weight: 400;
+    color: rgb(96, 96, 96);
+}
+.tarvel-card.c1{
+    background-image: url('/images/tr1.png') ;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.tarvel-card.c2{
+    background-image: url('/images/tr2.png' );
+
+    background-size: cover; 
+    background-repeat: no-repeat;   
+    background-position: center;    
+}
+.tarvel-card.c3{    
+    background-image: url('/images/tr3.png' );
+
+    background-size: cover; 
+    background-repeat: no-repeat;   
+    background-position: center;    
+}
+.travel-content{
+    width: 75%;
+    margin: 0 auto;
+    
+    
+    margin-top: 3rem;
+}
+.travel-content-top
+{
+    width: 100%;
+
+}
+.travel-content-top h1{
+    font-size: 1.5em;
+    font-family: poppins;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+.travel-content-top p{
+    font-size: 1em;
+    font-family: poppins;
+    font-weight: 400;
+    color: rgb(96, 96, 96);
+    line-height: 30px;
+}
+.travel-content-bottom-one{
+    width: 100%;
+}
+.travel-content-bottom-one p{
+    font-size: 1em;
+    font-family: poppins;
+    font-weight: 400;
+    color: rgb(65, 65, 65);
+}
+.travel-content-bottom-two{
+    width: 100%;
+}
+.travel-content-bottom-two p{
+    font-size: 1em;
+    font-family: poppins;
+    font-weight: 400;
+    color: rgb(65, 65, 65);
+}
+
+.travel-content-two{
+    width: 75%;
+    margin: 0 auto; 
+    margin-top: 3rem;
+}
+
+.travel-content-two-element
+{
+    width: 100%;
+    border: 1px solid rgb(210, 210, 210);
+    padding: 1rem;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+ .travel-content-two-element p{
+    font-size: 1em;
+    font-family: poppins;
+    font-weight: 400;
+    color: rgb(65, 65, 65);
+   
+    /* margin-top: -9px; */
+    
+}
+.travel-content-two-element h1{
+    font-family: poppins;
+    font-size: 1.5em;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+.travel-contact{
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+.travel-contact h1{
+    font-size: 1.5em;
+    font-family: poppins;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+.travel-contact p{
+    font-size: 1em;
+    font-family: poppins;
+    font-weight: 400;
+    color: rgb(96, 96, 96);
+    line-height: 30px;
+}
+
+
+ 
+    /* From Uiverse.io by levxyca */ 
+    .travel_button {
+    font-family: poppins;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color:  #001a6a;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid #001a6a;
+    background: #00ffdd;
+    box-shadow: 3px 3px #001a6a;
+    cursor: pointer;
+    margin-bottom: 15px;
+    /* margin-top:17px; */
+  }
+  
+  .travel_button:active {
+    box-shadow: none;
+    transform: translate(3px, 3px);
+  }
+  .travel-contact-left p
+  {
+    font-family: poppins;
+    font-size: 2em;
+    font-weight: 500;
+    color: rgb(16, 16, 16);
+    line-height: 30px;
+    /* border: 1px solid red; */
+  
+}
+
+@media (max-width: 800px) {
+    /* .travel-card{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .travel-content{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .travel-content-two{
+        width: 100%;
+        margin: 0 auto;
+    }} */
+
+    .travel-cards{
+        width: 90%;
+        margin: 0 auto;
+        display: block;
+    }
+    .tarvel-card{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    .tarvel-card p {
+        font-size: 0.9em;
+    }
+    /* .travel-content{
+        width: 90%;
+        margin: 0 auto;
+    } */
+
+}
+
+  
+
+

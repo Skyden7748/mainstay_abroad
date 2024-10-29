@@ -212,6 +212,21 @@ export default function Home() {
       </Swiper>
         </div>
       </div>
+      
+      
+      <div className="call">
+         
+          <div className="call_content_left">
+            <p>Just give us a call, and we'll take care of the rest</p>
+          </div>
+          <div className="call_content_right">
+             <h2>+91 9178017011 </h2>
+             <h2>+91 6743130628</h2>
+          </div>
+         
+      </div>
+
+
       <div className="testimonial">
         <div className="testimonial_heading">
           <h1>Testimonials</h1>
