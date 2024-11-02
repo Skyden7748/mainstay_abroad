@@ -347,11 +347,11 @@
 
     .the_service_card{
       width: 30rem;
-      height: 20rem;
+      height: 22rem;
      
       border-radius: 10px;
       background-color: black;
-      border-bottom:10px solid rgb(24, 255, 236) ;
+      border-bottom: solid rgb(24, 255, 236) ;
       display: flex;
     }
     .the_service_card_left
@@ -438,6 +438,29 @@
       line-height: 55px;
 
     }
+
+    .card_button {
+      font-family: poppins;
+      font-size: 01rem;
+      font-weight: 500;
+      color:  #fcfcfc;
+      /* text-transform: uppercase; */
+      padding: 6px 10px;
+      border-radius: 4px;
+      border: 1px solid #ffffff;
+      background: #000000;
+      /* box-shadow: 2px 2px  #ffffff; */
+      cursor: pointer;
+    
+      /* margin-bottom: 25px; */
+      /* margin-top:17px; */
+      margin-right: 9rem;
+    }
+    
+    .card_button:active {
+      box-shadow: none;
+      transform: translate(3px, 3px);
+    }
     
     
 
@@ -445,7 +468,7 @@
   @media (max-width: 800px) {
 
    
-
+    
 
 
     .call{
@@ -488,14 +511,41 @@
       font-size: 0.73em;
     }
     .the_service_card{
-      width:20rem;
-      height: 14rem;
+      width:22rem;
+      height: 17rem;
      
       border-radius: 10px;
       background-color: black;
       border-bottom:10px solid rgb(24, 255, 236) ;
       margin: 0 auto;
     }
+
+    .card_button {
+      font-family: poppins;
+      font-size: 0.7rem;
+      font-weight: 500;
+      color:  #fcfcfc;
+      /* text-transform: uppercase; */
+      padding: 6px 10px;
+      border-radius: 4px;
+      border: 1px solid #ffffff;
+      background: #000000;
+      box-shadow: 1px 1px  #ffffff;
+      cursor: pointer;
+    
+      /* margin-bottom: 25px; */
+      /* margin-top:17px; */
+      margin-right: 5rem;
+    }
+    
+    .card_button:active {
+      box-shadow: none;
+      transform: translate(3px, 3px);
+    }
+   .the_service_card_right img{
+      height: 80%;
+   }
+
     .testimonial{
       margin-top: 3rem
      

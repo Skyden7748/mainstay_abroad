@@ -19,7 +19,7 @@ function Program_form_1() {
     e.preventDefault();
 
     emailjs
-      .sendForm('service_cv66ulo', 'template_vp190bm', form.current, {
+      .sendForm('service_wl1s9l7', 'template_juugb66', form.current, {
         publicKey: 'jpLHwZ4Nr6v4ozupx',
       })
       .then(
@@ -109,8 +109,8 @@ function Program_form_1() {
         <form className="form"  ref={form} onSubmit={sendEmail}  >
       <div className="title">Contact us</div>
       <input type="text" placeholder="Name" className="input" required name="p_name" />
-      <input type="text" placeholder="Email Id" className="input" required name="e_mail"/>
-      <input type="text" placeholder="Mobile Number" className="input"required name="mob"  />
+      <input type="text" placeholder="Email Id" className="input" required name="p_mail"/>
+      <input type="text" placeholder="Mobile Number" className="input"required name="p_mob"  />
      
       {/* <select  placeholder="Country" className="inputf" name="country">
 
@@ -126,13 +126,13 @@ function Program_form_1() {
         
 
       </select> */}
-      <textarea placeholder="Your Requirement" className="textarea" name="message"></textarea>
+      <textarea placeholder="Your Requirement" className="textarea" name="p_message"></textarea>
         <div className='sep'><h1 >Multiple choice*</h1></div>
       <div class="checkbox-group">
-                <label><input type="checkbox" name="choice" value="IELTS General Training" /> IELTS General Training</label>
-                <label><input type="checkbox" name="choice" value="IELTS Academic" /> IELTS Academic</label>
-                <label><input type="checkbox" name="choice" value="IELTS General UKVI" /> IELTS General UKVI</label>
-                <label><input type="checkbox" name="choice" value="IELTS Academic UKVI" /> IELTS Academic UKVI</label>
+                <label><input type="checkbox" name="p_choice" value="IELTS General Training" /> IELTS General Training</label>
+                <label><input type="checkbox" name="p_choice" value="IELTS Academic" /> IELTS Academic</label>
+                <label><input type="checkbox" name="p_choice" value="IELTS General UKVI" /> IELTS General UKVI</label>
+                <label><input type="checkbox" name="p_choice" value="IELTS Academic UKVI" /> IELTS Academic UKVI</label>
             </div>
 
       <button type="submit">Submit</button>

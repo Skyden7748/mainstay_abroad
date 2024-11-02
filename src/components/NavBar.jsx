@@ -49,7 +49,7 @@ function NavBar() {
   </button>
   <ul class="dropdown-menu">
     <li><a class="dropdown-item" href="/visa">VISA Services</a></li>
-    <li><a class="dropdown-item" href="/tourist_visa">Tourist Visas</a></li>
+    <li><a class="dropdown-item" href="/Attestation">ATTESTATION</a></li>
     
   </ul>
 </div>
@@ -62,8 +62,11 @@ function NavBar() {
   </button>
   <ul class="dropdown-menu">
     <li><a class="dropdown-item" href="/ielts">IELTS</a></li>
-    <li><a class="dropdown-item" href="/attestation">ATTESTATION</a></li>
+    
     <li><a class="dropdown-item" href="/tours">Travels and Tours</a></li>
+    <li><a class="dropdown-item" href="/studyabroad">Study Abroad</a></li>
+    <li><a class="dropdown-item" href="/workabroad">Work Abroad</a></li>
+
     
     {/* <li><a class="dropdown-item" href="/toefl">TOEFL</a></li>
     <li><a class="dropdown-item" href="/pte">PTE</a></li>

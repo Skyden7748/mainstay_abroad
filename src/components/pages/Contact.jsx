@@ -1,11 +1,41 @@
 import React from 'react';
+import { useRef } from 'react';
+import { useEffect } from 'react';
 import './Contact.css';
+import {  toast , ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import emailjs from '@emailjs/browser';
 import { FaEnvelope, FaMapMarkerAlt, FaPhone } from 'react-icons/fa';
 
 function Contact() {
+  const form = useRef();
+  // useEffect(() => {
+  //   toast.success("Toast is working!");
+  // }, []);
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm('service_wl1s9l7', 'template_28w0k2d', form.current, {
+        publicKey: 'jpLHwZ4Nr6v4ozupx',
+      })
+      .then(
+        () => {
+          toast.success('Message sent successfully!');
+        },
+        (error) => {
+          toast.error(error.text);
+        },
+      );
+      setTimeout(() => {
+        form.current.reset();
+      }, 500);
+  };
   return (
     
     <div className='main-stuff'>
+      <ToastContainer />
       <div className='heading'>
         <div className='sub-heading'>
           <h1>Get In Touch</h1>
@@ -44,19 +74,22 @@ function Contact() {
            </div>
          <div className='contact-us-right'> 
              <div className='form-container'>
-             <form className="form">
+             
+             <form ref={form} className="form" onSubmit={sendEmail}>
       <div className="title">Contact us</div>
-      <input type="text" placeholder="Name" className="input" />
-      <input type="text" placeholder="Email Id" className="input" />
-      <input type="text" placeholder="Subject" className="input" />
-      <textarea placeholder="Message" className="textarea"></textarea>
-      <button type="submit">Submit</button>
+      <input type="text" placeholder="Name" className="input" name='p_name' />
+      <input type="text" placeholder="Email Id" className="input" name='p_email' />
+      <input type="number" placeholder='Phone Number' className="input" name='p_phone' />
+      <input type="text" placeholder="Subject" className="input" name='p_subject' />
+
+      <textarea placeholder="Message" className="textarea" name='p_message'></textarea>
+      <button type="submit" >Submit</button>
     </form>
             </div> 
           </div>
         </div>
       </div>
-     
+    
     </div>
   );
 }

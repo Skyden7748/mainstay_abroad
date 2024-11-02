@@ -1,0 +1,82 @@
+.tarvel-card.c11{
+    background-image: url('/images/profile.png') ;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 2px solid black;
+}
+
+.tarvel-card.c22{
+    background-image: url('/images/date.png') ;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 2px solid black;
+}
+
+.tarvel-card.c33{
+    background-image: url('/images/wabroad.png') ;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 2px solid black;
+}
+.work-content-one{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+.work-content-one h1{
+    font-family: poppins;
+    font-size: 3em;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.work-content-one p{
+    font-family: poppins;
+    font-size: 1em;
+    font-weight: 500;
+    color: rgb(113, 113, 113);
+    text-align: center;
+}
+.travel-contact{
+    height: fit-content;
+    /* display: flex;
+    gap: 20px;
+    text-align: bottom; */
+}
+.travel-contact p{
+    font-family: poppins;
+    font-size: 1.2em;
+    color: black;
+
+}
+@media (max-width:800px)
+{
+    .work-content-one{
+        width: 85%;
+    }
+    .work-content-one h1{
+        font-size: 1.7em;
+    }
+    .work-content-one p{
+        font-size: 0.8em;
+    }
+
+    .travel-content-two{
+        width: 85%;
+    }
+    .travel-content-two p{
+        font-size: 0.8em;
+    }
+    /* .travel-content-two h1{
+        font-size: 2em;
+    } */
+     
+}
+
+

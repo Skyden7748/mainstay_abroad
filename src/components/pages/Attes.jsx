@@ -13,22 +13,22 @@ function Attes() {
         </div>
         <div className='at-content1'>
           <div className='at-content1-1'>
-            <div className='at-box'>
+            <div className='at-box ind'>
               <p>INDIA</p>
             </div>
-            <div className='at-box'>
+            <div className='at-box uaemofa'>
               <p>UAE MOFA</p>
             </div>
-            <div className='at-box'>
+            <div className='at-box uae'>
               <p>UAE</p>
             </div>
-            <div className='at-box'>
+            <div className='at-box oman'>
               <p>OMAN</p>
             </div>
-            <div className='at-box'>
+            <div className='at-box canada'>
               <p>CANADA CRIMINAL RECORD CERTIFICATE</p>
             </div>
-            <div className='at-box'>
+            <div className='at-box finland'>
               <p>FINLAND</p>
             </div>
           </div>
@@ -50,16 +50,12 @@ function Attes() {
 
 
           </div>
-          <div className='form-container1'>
-             <form className="form">
-      <div className="title">Get in touch</div>
-      <input type="text" placeholder="Name" className="input" />
-      <input type="text" placeholder="Phone Number" className="input" />
-      <input type="text" placeholder="Email Id" className="input" />
-      <textarea placeholder="Query" className="textarea"></textarea>
-      <button type="submit">Submit</button>
-    </form>
-            </div>
+          <div className='travel-contact ates'>
+       <button onClick={() => window.location.href = '/contact'} className='travel_button'>
+        Get in touch 
+       </button >
+       <p>Let us know about your requirements.</p>
+      </div>
         
     </div>
   )

@@ -19,6 +19,8 @@ import Program_form_1 from './components/pages/Program_form_1'
 import Program_form_4 from './components/pages/Program_form_4'
 import Attes from './components/pages/Attes'
 import Tours from './components/pages/Tours'
+import Study from './components/pages/Study'
+import Work from './components/pages/Work'
 
 
 
@@ -35,9 +37,10 @@ function App() {
      <Route path='/' element={<Home />} />
      <Route path='/contact' element={< Contact/>} />
      <Route path='/about' element={< About/>} />
-     <Route path='/attestation' element = {<Attes/>} />
+     <Route path='/Attestation' element = {<Attes/>} />
      <Route path='/tours' element = {<Tours/>} />
-     
+     <Route path='/studyabroad' element = {<Study/>} />
+     <Route path = '/workabroad' element = { <Work/>} />
      <Route path='/visa' element={< Visa/>} />
      <Route path='/programs' element={< IELTS/>} />
      <Route path='/tourist_visa' element={< Visa_form_one/>} />

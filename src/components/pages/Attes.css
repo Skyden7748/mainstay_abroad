@@ -52,7 +52,7 @@
 .at-box p{
      font-family: poppins; 
      font-size: 0.85em; 
-     color: rgb(103, 103, 103);
+     color: rgb(71, 71, 71);
     
     font-weight: 600;
 
@@ -96,6 +96,35 @@
     width: 1100px;
     margin: 0 auto;
 }
+.at-box.ind{
+    background-image: url('/images/ind.jpg');
+    background-size: cover; 
+}
+.at-box.uaemofa{
+    background-image: url('/images/uaee.jpg');
+    background-size: cover; 
+}
+.at-box.uae{
+    background-image: url('/images/uaee.jpg');
+    background-size: cover; 
+}
+.at-box.oman{
+    background-image: url('/images/oman.jpg');
+    background-size: cover; 
+}
+.at-box.canada{
+    background-image: url('/images/cannadda.jpg');
+    background-size: cover; 
+}
+.at-box.finland{
+    background-image: url('/images/finland.jpg');
+    background-size: cover; 
+}
+
+.travel-contact.ates{
+    width: 70%; 
+}
+
 @media (max-width: 800px) {
     .at-heading{
         height: 25vh;

@@ -158,6 +158,7 @@ export default function Home() {
             <div className="the_service_card_left">
               <h1>Visa Services</h1>
               <p>Discover the world with our expert visa services and smooth application process. Enjoy your journey while we handle all the details.</p>
+              <button className="card_button" onClick={() => window.location.href = '/visa  '}>know More</button>
             </div>
             <div className="the_service_card_right">
             <img src="images/visa.png" alt="" />
@@ -170,6 +171,7 @@ export default function Home() {
 <div className="the_service_card_left">
   <h1>Hotel Booking</h1>
   <p>Discover the world with our expert travel services and seamless hotel bookings. Enjoy your journey while we handle all the details.</p>
+  <button className="card_button" onClick={() => window.location.href = '/tours'}>know More</button>
 </div>
 <div className="the_service_card_right">
   <img src="images/ticket.png" alt="" style={{width:"90%"}} />
@@ -182,11 +184,27 @@ export default function Home() {
 <div className="the_service_card_left">
 <h1>Prep Programs</h1>
 <p>Excel in IELTS, TOEFL, PTE, and more with our expert test prep services. We provide the guidance and resources you need to succeed.</p>
+<button className="card_button" onClick={() => window.location.href = '/ielts'}>know More</button>
 </div>
 <div className="the_service_card_right">
-<img src="images/book.png" alt="" />
+<img src="images/book.png" alt=""   />
 </div>
 </div>
+
+       </SwiperSlide>
+       <SwiperSlide>
+       <div className="the_service_card">
+
+<div className="the_service_card_left">
+<h1>Attestation&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
+<p>Ensure the authenticity of your documents with our fast and secure attestation services, trusted for all your certification needs.</p>
+<button className="card_button" onClick={() => window.location.href = '/Attestation'}>know More</button>
+</div>
+<div className="the_service_card_right">
+<img src="images/ats.png" alt=""   />
+</div>
+</div>
+
        </SwiperSlide>
        <SwiperSlide>
        <div className="the_service_card">
@@ -194,9 +212,23 @@ export default function Home() {
 <div className="the_service_card_left">
 <h1>Tour Packages</h1>
 <p>Discover curated tour packages for every traveler. Explore scenic landscapes and historical landmarks with ease.</p>
+<button className="card_button" onClick={() => window.location.href = '/tours'} >know More</button>
 </div>
 <div className="the_service_card_right">
 <img src="images/photo.png" alt="" />
+</div>
+</div>
+       </SwiperSlide>
+       <SwiperSlide>
+       <div className="the_service_card">
+
+<div className="the_service_card_left">
+<h1>Study Abroad</h1>
+<p>Explore global education with Mainstay Abroad. We’re here to guide and support your study abroad ambitions.</p>
+<button className="card_button" onClick={() => window.location.href = '/studyabroad'} >know More</button>
+</div>
+<div className="the_service_card_right">
+<img src="images/pen.png" alt="" />
 </div>
 </div>
        </SwiperSlide>
